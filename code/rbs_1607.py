@@ -120,7 +120,7 @@ def SaveLogBlockInfo(lbh_buf) :
 
 # main function
 
-FilePath = "D:\\1. Research\\55. Windows Telemetry\\_on work\\rbs_file_samples\\1607 ver\\È£¿ë¼±¹è_rbs\\Events_Normal.rbs"
+FilePath = "D:\\1. Research\\55. Windows Telemetry\\_on work\\rbs_file_samples\\1607 ver\\í˜¸ìš©ì„ ë°°_rbs\\Events_Normal.rbs"
 
 # file open & data read
 filesize = os.path.getsize(FilePath)
@@ -149,11 +149,11 @@ LogBlockPrint(buf)
 
 '''
 file.seek(offset, from_what)
-offset: ¾ó¸¶³ª ¿Å±æ °ÍÀÎÁö
-from_what: ¾îµğ¸¦ ±âÁØÀ¸·Î ÇÒ °ÍÀÎÁö
-0: os.SEEK_SET, ÆÄÀÏÀÇ ½ÃÀÛ
-1: os.SEEK_CUR, ÇöÀç À§Ä¡
-2: os.SEEK_END, ÆÄÀÏÀÇ ³¡
+offset: ì–¼ë§ˆë‚˜ ì˜®ê¸¸ ê²ƒì¸ì§€
+from_what: ì–´ë””ë¥¼ ê¸°ì¤€ìœ¼ë¡œ í•  ê²ƒì¸ì§€
+0: os.SEEK_SET, íŒŒì¼ì˜ ì‹œì‘
+1: os.SEEK_CUR, í˜„ì¬ ìœ„ì¹˜
+2: os.SEEK_END, íŒŒì¼ì˜ ë
 
 
 rf = open(enfile, 'r')
