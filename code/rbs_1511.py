@@ -144,11 +144,11 @@ SaveLogBlockInfo(buf)
 
 '''
 file.seek(offset, from_what)
-offset: ¾ó¸¶³ª ¿Å±æ °ÍÀÎÁö
-from_what: ¾îµð¸¦ ±âÁØÀ¸·Î ÇÒ °ÍÀÎÁö
-0: os.SEEK_SET, ÆÄÀÏÀÇ ½ÃÀÛ
-1: os.SEEK_CUR, ÇöÀç À§Ä¡
-2: os.SEEK_END, ÆÄÀÏÀÇ ³¡
+offset: ì–¼ë§ˆë‚˜ ì˜®ê¸¸ ê²ƒì¸ì§€
+from_what: ì–´ë””ë¥¼ ê¸°ì¤€ìœ¼ë¡œ í•  ê²ƒì¸ì§€
+0: os.SEEK_SET, íŒŒì¼ì˜ ì‹œìž‘
+1: os.SEEK_CUR, í˜„ìž¬ ìœ„ì¹˜
+2: os.SEEK_END, íŒŒì¼ì˜ ë
 
 
 rf = open(enfile, 'r')
