@@ -20,7 +20,7 @@ def json_dataView(jdata, key) :
 
 
 #path = sys.argv[1]
-path = "D:\\1. Research\\55. Windows Telemetry\\_on work\\rbs_file_samples\\170811_¹Ú¼ÛÀÌ_15063_Normal\\3"
+path = "D:\\1. Research\\55. Windows Telemetry\\_on work\\rbs_file_samples\\170811_Â¹ÃšÂ¼Ã›Ã€ÃŒ_15063_Normal\\3"
 
 size = os.path.getsize(path)
 rf = os.open(path, os.O_BINARY)
